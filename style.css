@@ -1,1 +1,113 @@
+body {
+  background-color:rgba(249, 249, 250, 0.829);
+}
 
+h1 {
+  font-size:40px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:rgb(104, 103, 103);
+  text-align:center;
+  padding:75px;
+  position:relative;
+  bottom:40px
+}
+
+.box1 {
+  height:150px;
+  width:auto;
+  margin:5px;
+  background-color:white;
+}
+
+i {
+  border:solid lightgrey;
+  border-width: 0 10px 10px 0;
+  display:inline-block;
+  padding:10px;
+  }
+
+arrow {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  margin-left:90%
+}
+
+.arrow2 {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg); 
+ position:relative;
+ top:75px;
+ left:30px;
+}
+
+h2 {
+  font-size:40px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:rgb(231, 143, 10);
+  text-align:center;
+  padding:14px;
+  }
+
+.list {
+  font-size:16px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:rgb(104, 103, 103);
+  background-color:white;
+  padding-left:20px;
+  padding-top:25px;
+  margin:5px;
+}
+
+ b {
+  font-weight:400;
+  font-size:30px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:rgb(231, 143, 10);
+  margin:5px;
+ }
+
+.departures {
+  font-size:12px;
+  color:grey;
+  padding:8px;
+  height:50px;
+ }
+
+.destination {
+  height:50px;
+}
+
+.eastbound {
+  background-color:rgba(249, 249, 250, 0.829);
+  height:70px;
+  width:auto;
+  padding:18px;
+}
+
+.northbound {
+  background-color:rgba(249, 249, 250, 0.829);
+  height:70px;
+  width:auto;
+  padding:18px;
+}
+
+.southbound {
+  background-color:rgba(249, 249, 250, 0.829);
+  height:70px;
+  width:auto;
+  padding:18px;
+}
+
+.reroute {
+  background-color:rgba(249, 249, 250, 0.829);
+  height:70px;
+  width:auto;
+  padding:18px;
+  }
+
+.service {
+  background-color:rrgba(249, 249, 250, 0.829);
+  height:70px;
+  width:auto;
+  padding:18px;
+}
