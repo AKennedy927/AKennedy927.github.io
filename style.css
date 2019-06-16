@@ -1,113 +1,115 @@
 body {
   background-color:rgba(249, 249, 250, 0.829);
-}
-
-h1 {
-  font-size:40px;
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color:rgb(104, 103, 103);
-  text-align:center;
-  padding:75px;
-  position:relative;
-  bottom:40px
-}
-
-.box1 {
-  height:150px;
-  width:auto;
-  margin:5px;
-  background-color:white;
-}
-
-i {
-  border:solid lightgrey;
-  border-width: 0 10px 10px 0;
-  display:inline-block;
-  padding:10px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
-arrow {
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-  margin-left:90%
-}
-
-.arrow2 {
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg); 
- position:relative;
- top:75px;
- left:30px;
-}
-
-h2 {
-  font-size:40px;
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color:rgb(231, 143, 10);
-  text-align:center;
-  padding:14px;
+  .statusbar {
+    background-color:white;
+    height:40px;
+    width:auto;
   }
 
-.list {
-  font-size:16px;
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color:rgb(104, 103, 103);
-  background-color:white;
-  padding-left:20px;
-  padding-top:25px;
-  margin:5px;
-}
-
- b {
-  font-weight:400;
-  font-size:30px;
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color:rgb(231, 143, 10);
-  margin:5px;
- }
-
-.departures {
-  font-size:12px;
-  color:grey;
-  padding:8px;
-  height:50px;
- }
-
-.destination {
-  height:50px;
-}
-
-.eastbound {
-  background-color:rgba(249, 249, 250, 0.829);
-  height:70px;
-  width:auto;
-  padding:18px;
-}
-
-.northbound {
-  background-color:rgba(249, 249, 250, 0.829);
-  height:70px;
-  width:auto;
-  padding:18px;
-}
-
-.southbound {
-  background-color:rgba(249, 249, 250, 0.829);
-  height:70px;
-  width:auto;
-  padding:18px;
-}
-
-.reroute {
-  background-color:rgba(249, 249, 250, 0.829);
-  height:70px;
-  width:auto;
-  padding:18px;
+  .service {
+    display:inline-block;
+    padding:3px 20px 0 0;
+    margin:0 auto;
   }
 
-.service {
-  background-color:rrgba(249, 249, 250, 0.829);
-  height:70px;
-  width:auto;
-  padding:18px;
-}
+  .wifi {
+    display:inline-block;
+    padding:3px 20px 0 0;
+    margin:0 auto;
+  }
+
+  .battery {
+    display:inline-block;
+    padding:3px 20px 0 0;
+    margin:0 auto;
+    
+  }
+
+  .time {
+    display: inline-block;
+    padding: 3px 0px 0 20px;
+  }
+
+    .rightarrow {
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      border:solid rgba(230, 230, 231, 0.829);
+      border-width: 0 5px 5px 0;
+      padding: 5px;
+      position: absolute;
+      right:20px;
+      top:20px;
+      }
+
+    .leftarrow{
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    border:solid rgba(230, 230, 231, 0.829);
+    border-width: 0 5px 5px 0;
+    padding:5px;
+    position: absolute;
+    left:20px;
+    top:42px;
+  }
+
+  h1 {
+    background-color: white;
+    height:28px;
+    font-size:20px;
+    font-weight:600;
+    color: rgb(104, 103,103);
+    text-align: center;
+    padding-bottom:10px;
+   }
+
+  h2 {
+    text-align:center;
+    font-size:18px;
+    font-weight: 400;
+    color: rgb(231, 143, 10);
+    padding: 10px 0 10px 0;
+   }
+
+   .container {
+     background-color:white;
+     height:60x;
+     width:auto;
+     position: relative;
+   }
+
+   .container1 {
+     background-color:white;
+     height:60px;
+     width:auto;
+     position: relative;
+   }
+
+   b {
+     font-size:20px;
+     font-weight:500;
+     color: rgb(231, 143, 10);
+  }
+
+  .destination {
+    color: rgb(104, 103, 103);
+    padding: 8px 0 0 10px;
+  }
+
+  .departure {
+    font-size:13px;
+    font-weight:100;
+    color: rgb(131, 130, 130);
+    margin-top:4px;
+    padding: 1px 0 10px 10px;
+   }
+
+  .border1 {
+     border-bottom:solid;
+    border-bottom-color:rgba(249, 249, 250, 0.829);
+   }
+
