@@ -2,82 +2,106 @@
 <html>
     <head>
        <title>BusyBus</title>
+       <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
        <link rel="stylesheet" href="reset.css">
        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="box1">
-        <i class="arrow2"></i><h1>Washington and State St</h1>
-        </div>
-        <div class="eastbound">
-           <h2>Eastbound</h2>
-        </div>   
-       <section class="container">
-           <div class="list">
-               <ul class="nobull">
-                   <li class="destination"><b>60</b> Randolph/Harbor Dr <i class="arrow"></i></li>
-                   <li class="departures">Every 20 mins</li> 
-               </ul>
-               <hr>
-               <ul class="nobull">
-               <li class="destination"><b>124</b> Navy Pier<i class="arrow"></i></li>
-               <li class="departures">Every 15 mins</li>
-            </ul>
-           </div>
-           </section>
-           <div class="northbound">
-               <h2>Northbound</h2>
-           </div>
-           <selection class="container">
-           <div class="list">
-               <ul class="nobull">
-                   <li class="destination"><b>151</b> Devon/Clark St<i class="arrow"></i></li>
-                   <li class="departures">Every 20 mins</li>
-               </ul>
-            </div>
-        </selection>
-           <div class="southbound">
-               <h2>Southbound</h2>
-           </div>
-           <section class="container">
-               <div class="list">
-                   <ul class="nobull">
-                       <li class="destination"><b>J14</b> 103rd/Story Island<i class="arrow"></i></li>
-                       <li class="departures">Every 15 mins</li>
-                   </ul>
-                   <hr>
-                   <ul class="nobull">
-                   <li class="destination"><b>124</b> Navy Pier<i class="arrow"></i></li>
-                   <li class="departures">Every 10 mins</li>
-                </ul>
-               </div>
-           </section>
-           <div class="reroute">
-               <h2>Reroute</h2>
-           </div>
-           <selection class="container">
-           <div class="list">
-           <ul class="nobull">
-               <li class="destination"><b>6X</b> Jackson Park Express<i class="arrow"></i></li>
-               <li class="departures">N/A</li>
+       <div class="statusbar">
+           <ul>
+            <li class="time">9:41am</li>
+           <ul style="float:right">     
+            <li class="service"><img src="service.png"></li>   
+            <li class="wifi"><img src="wifi.png"></li>
+            <li class="battery"><img src="battery.png"></li>
            </ul>
-        </selection>
+           </ul>
         </div>
-        <div class="service">
-            <h2>Out of Service</h2>
-        </div>
-        <section class="container">
-            <div class="list">
-                <ul class="nobull">
-                    <li class="destination"><b>4</b> Cottage Grove<i class="arrow"></i></li>
-                    <li class="departures">Resumes 12:10am</li>
-                    <hr>
-                    <li class="destination"><b>20</b> Madison Rd<i class="arrow"></i></li>
-                    <li class="departures"> Resumes 12:10am</li>
-                    <hr>
-                    <li class="destination"><b>157</b> Streetville/Taylor<i class="arrow"></i></li>
-                    <li class="departures">Resumes 6:00am</li>
-                </ul>
-            </div>
-         </section>
-        </html>
+       <div>
+      <ul><div class="leftarrow"></div></ul>
+       <h1>Washington and State St</h1>
+       </div>
+       <div>
+           <h2>Eastbound</h2>
+        </div>  
+      <section class="container">
+        <ul style="float:right"><div class="rightarrow"></div></ul>
+          <ul>
+            <li class="destination"><b>60</b> Randolph/Harbor Dr</li>
+            <li class="departure">Every 20 mins</li>
+          </ul>
+      </section>
+      <section class="container1">
+          <div class="border1"></div>
+          <ul style="float:right"><div class="rightarrow"></div></ul>
+          <ul>
+              <li class="destination"><b>124</b> Navy Pier</li>
+              <li class="departure">Every 15 mins</li>
+          </ul>
+      </section>
+      <div>
+          <h2>Northbound</h2>
+      </div>
+      <section class="container1">
+          <ul>
+          <ul style="float:right"><div class="rightarrow"></div></ul>
+              <li class="destination"><b>151</b> Devon/Clark St</li>
+              <li class="departure">Every 20 mins</li>
+          </ul>
+      </section>
+      <div>
+          <h2>Southbound</h2>
+      </div>
+      <section class="container">
+          <ul>
+           <ul style="float:right"><div class="rightarrow"></div></ul>
+              <li class="destination"><b>J14</b> 103rd/Story Island</li>
+              <li class="departure">Every 15 mins</li>
+          </ul>
+        </section>
+        <section class="container1">
+          <div class="border1"></div>
+          <ul>
+          <ul style="float:right"><div class="rightarrow"></div></ul>
+              <li class="destination"><b>124</b> Navy Pier</li>
+              <li class="departure">Every 10 mins</li>
+          </ul>
+      </section>
+      <div>
+          <h2>Reroute</h2>
+      </div>
+      <section class="container1">
+          <ul>
+          <ul style="float:right"><div class="rightarrow"></div></ul>
+              <li class="destination"><b>6X</b> Jackson Park Express</li>
+              <li class="departure">N/A</li>
+          </ul>
+      </section>
+      <div>
+          <h2>Out of Service</h2>
+      </div>
+      <section class="container">
+          <ul>
+           <ul style="float:right"><div class="rightarrow"></div></ul>
+              <li class="destination"><b>4</b> Cottage Grove</li>
+              <li class="departure">Resumes 12:10am</li>
+          </ul>
+      </section>
+       <section class="container1">  
+          <div class="border1"></div>
+          <ul>
+          <ul style="float:right"><div class="rightarrow"></div></ul>
+              <li class="destination"><b>20</b> Madison Rd</li>
+              <li class="departure">Resumes 12:10am</li>
+          </ul>
+        </section>
+          <section class="container1">
+           <div class="border1"></div>  
+          <ul>
+          <ul style="float:right"><div class="rightarrow"></div></ul>
+              <li class="destination"><b>157</b>Streetville/Taylor</li>
+              <li class="departure">Resumes 6:00am</li>
+          </ul>
+        </section>
+     </body>
+    </html>
