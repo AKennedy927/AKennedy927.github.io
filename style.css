@@ -13,13 +13,13 @@ body {
 
   .service {
     display:inline-block;
-    padding:3px 20px 0 0;
+    padding:3px 0px 0 0;
     margin:0 auto;
   }
 
   .wifi {
     display:inline-block;
-    padding:3px 20px 0 0;
+    padding:3px 0px 0 0;
     margin:0 auto;
   }
 
@@ -27,8 +27,7 @@ body {
     display:inline-block;
     padding:3px 20px 0 0;
     margin:0 auto;
-    
-  }
+   }
 
   .time {
     display: inline-block;
